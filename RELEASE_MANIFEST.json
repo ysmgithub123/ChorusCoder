@@ -63,10 +63,15 @@
     },
     {
       "path": "README.md",
-      "bytes": 11783,
-      "sha256": "25aa9e0ce564203092a074e97f0e4ff644a8ec768c16282c039c3bc57d765f47",
+      "bytes": 6102,
+      "sha256": "5e290b920f8c5c6c8b68576ec86c6958af111e87d446cd9802392cc896e9cad4",
       "source_sha256": "c6f37a105793ea6d50ded5fe609ee33ccb70b6b48b92d9e4d76ae9aa762dd39b",
       "export_change": "public_documentation_edit"
+    },
+    {
+      "path": "README.zh-CN.md",
+      "bytes": 5716,
+      "sha256": "b93e79aa5d7f099c59f5ce113a711afe45a8a4fdd1dfa5160fa901a9c45daf8e"
     },
     {
       "path": "aircoder_profiles.py",

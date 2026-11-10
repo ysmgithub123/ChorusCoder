@@ -63,8 +63,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5666,
-      "sha256": "809ef194e65419dbcb77fdfe3f41f3e14ae0a12931b204c244f905513e0d0232",
+      "bytes": 11783,
+      "sha256": "25aa9e0ce564203092a074e97f0e4ff644a8ec768c16282c039c3bc57d765f47",
       "source_sha256": "c6f37a105793ea6d50ded5fe609ee33ccb70b6b48b92d9e4d76ae9aa762dd39b",
       "export_change": "public_documentation_edit"
     },

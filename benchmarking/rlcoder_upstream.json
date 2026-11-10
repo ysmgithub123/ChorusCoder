@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/DeepSoftwareAnalytics/RLCoder",
+  "commit": "164d8d88cde324a38f5da70c4f858cc4679ef08e",
+  "sha256": {
+    "bm25.py": "dd3ecb482a1f3dafd4fcc98f606a287d8e891c7a189c27e7d566c8a750e3cc4e",
+    "datasets.py": "14348d392f60e71dc48fde2423abdf200baa6f5065af5d998d169a92278f20e7",
+    "retriever.py": "c325c8a0192572a3c32cd7ef8aa63cfdef0157fe22232a3870e01784de021f94",
+    "README.md": "fcfc35248fb5d478493283625ddaedb53c209afa3d3d3204cda234db79107cde",
+    "requirements.txt": "92a4bbdc27f2e7de9f60470f3aafebe59058db7696012e592746bccfa8d1d4ea",
+    "main.py": "2dd5227949a7ed1ed1341955a9f710f455d236787b17e4b9d017a7d4b5f40ef7",
+    "generator.py": "83911d18ac851b126dfef0ed9d7cb514ede028e07b08063d9ff342c5ef45f1a5"
+  }
+}

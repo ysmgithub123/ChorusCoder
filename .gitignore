@@ -1,0 +1,44 @@
+# Local environments and editor state
+.venv*/
+.tools/
+.idea/
+.vscode/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+
+# Downloaded datasets, models and generated experiment artifacts
+/data/
+/data_sources/
+/models/
+/benchmark_cache/
+/benchmark_results*/
+/result*/
+/logs/
+/log_infer/
+/artifacts/
+/output/
+/outputs/
+/tmp/
+*.log
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm
+*.zip
+*.tar.gz
+
+# These pinned upstream dependencies are installed locally, not redistributed.
+/third_party/AIRCoder/
+/third_party/GrepRAG/
+/third_party/RLCoder/
+/data_sources/recceval/
+
+# Intentionally keep utils/build/*.so: existing Linux parser libraries.

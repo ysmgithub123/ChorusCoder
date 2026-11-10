@@ -1,0 +1,13 @@
+{
+  "note": "Existing Linux Python library copied without alteration for the paper experiments. Original source build revision was not recorded.",
+  "libraries": [
+    {
+      "file": "python-lang-parser.so",
+      "sha256": "93d1eaa54b9133e22effec0c104e2af6c2073ec8d543190aa2e73277287a7abc",
+      "bytes": 542896,
+      "format": "ELF",
+      "elf_class": 2,
+      "original_build_revision": null
+    }
+  ]
+}

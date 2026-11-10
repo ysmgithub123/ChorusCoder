@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/KDEGroup/CodeRAG",
+  "commit": "f50251c86839bc50dbf8b928ae4f3eeacd75e4c5",
+  "sha256": {
+    "LICENSE": "a145c4ec8fd43f59ebe97708b6ee4cef8112959036957eaa4739b8da9a297e8a",
+    "coderag/build_query/build_query.py": "670b34695cdd0f6e2f8621b7801dc4386951946799cabcb988794d34355de437"
+  },
+  "scope": "Query-construction reference used by CodeRAG-cAST; selected files retain upstream bytes."
+}

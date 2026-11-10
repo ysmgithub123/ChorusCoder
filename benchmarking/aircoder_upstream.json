@@ -1,0 +1,23 @@
+{
+  "commit": "c3c344d674ba4c913c173c1c63c49309a49b1bba",
+  "repository": "https://github.com/chuanky/AIRCoder",
+  "sha256": {
+    "src/astchunk/__init__.py": "cefc45fd4736378e31553f58d6563fa883d6ca6921c4124f950b2c00ae792cf7",
+    "src/astchunk/ast_utils.py": "da12dce2ce1e7caaace4c8fa0605497d38507934f65c614ae271f827c451b58a",
+    "src/astchunk/astchunk.py": "a258e8ff6949ce4a8860f6128f31e9d6b9ceddb7a870c86dcaba4cbf7f92740f",
+    "src/astchunk/astchunk_builder.py": "aab02ad9c20c1b29ea203fabc3de81eece032573520c6b73dabe4f89c0f47fbb",
+    "src/astchunk/astnode.py": "30150c39f4fb17d3ae6aa2562c1366ff1a7d8c2c23eeeb93a76ce3bba0f39752",
+    "src/astchunk/common.py": "f0559ecfc6ec6c7bf8fb0acf9674addca2478bcdf9d349fc0c3208dc087c7261",
+    "src/astchunk/main.py": "17f859be60b84c4b6760fef98d1f4215b8228584ecfeec88d8832f6a35fef36d",
+    "src/astchunk/preprocessing.py": "f56f7b2b14b67ca8ae295d9db4e973d913affb369c3aa5ee5c975edfa1c06f43",
+    "src/const.py": "6d2da26577c3a94925c1285b28323f377e6d56c3d868b43f96f3268c6793ba42",
+    "src/database.py": "5ef289f2b0dd3f0fee271fd4c36f4ff23d9c666499021c31270ad081984b01e6",
+    "src/llm_dep_ext.py": "ebf7ddee31947cfc1bfc130b767408fb0daabccb417c653f3e83e851c14116d4",
+    "src/prompts.py": "86228279d53d2feb4cad75bf96f14d789dad3e96d4faf4fcc412fd20bfafe04b",
+    "src/retriever.py": "46e9d33a6e73c0968bf2f399bb981cf0a57845e5437d479fd1a5dc77c9276b84",
+    "src/score.py": "f4b58ad3571b2217e3f1ced42f4cf05c2d46c1440c35365db515ca886ac114a0",
+    "src/utils.py": "39fdf3e8e13e6642528ca5bc5ccd8ba4603d148e97e1582bd0b04e011631144f",
+    "src/utils_repo.py": "7c19bae945cfd572d587cc2cd4ff00e31191bd92564c0f9a17d8d23d481d55dc",
+    "src/utils_transformer.py": "1e25ec2c1067922b0266e515b0f875f01867fc25fc2ceeb12163796930e719b3"
+  }
+}

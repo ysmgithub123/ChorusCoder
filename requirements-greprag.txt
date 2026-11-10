@@ -1,0 +1,8 @@
+# Isolated official keyword/retrieval worker. Do not install into the vLLM env.
+torch==2.6.0
+transformers==4.57.1
+tokenizers==0.22.1
+numpy==2.2.6
+rank-bm25==0.2.2
+tiktoken==0.12.0
+pyarrow==25.0.1

@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/yilinjz/astchunk",
+  "commit": "e8a4f85fa571db6c13a9901d0cab9ac2a9c979cd",
+  "version": "0.1.0",
+  "sha256": {
+    "LICENSE": "7d15c00bc6c766c89b830c668a6d9d9584a4fbbd7bc53b5a38f80984780373d8",
+    "src/astchunk/astchunk_builder.py": "38d705e7d85754bffda48e8fa4c4f741f03b7d8305eb6880dc93398bcb47ff7a",
+    "src/astchunk/astchunk.py": "25a3d50e1db80658d241b26924162891d153209b54502a4867fdae280d8feddd",
+    "src/astchunk/astnode.py": "30150c39f4fb17d3ae6aa2562c1366ff1a7d8c2c23eeeb93a76ce3bba0f39752",
+    "src/astchunk/preprocessing.py": "1ae76c8b5123976d19828d92126c584a1da43706a98ab6c1b68808b20fe23022",
+    "pyproject.toml": "d66270ae53c695d6f951ea945ffe07b5ada2b1b9807ee94b77000837589f2087"
+  }
+}

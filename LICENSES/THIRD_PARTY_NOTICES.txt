@@ -1,0 +1,34 @@
+# Third-party sources and resources
+
+Pinned source files retain their original bytes and licenses. Runtime adapters
+verify the SHA-256 identities stored in the source manifests. A project-level
+license does not replace the licenses below.
+
+| Component | Revision | Distribution in this repository |
+|---|---|---|
+| [astchunk / cAST](https://github.com/yilinjz/astchunk) | `e8a4f85fa571db6c13a9901d0cab9ac2a9c979cd` | Included snapshot, MIT; see `third_party/astchunk_official/LICENSE` and `NOTICE.md` |
+| [CodeRAG](https://github.com/KDEGroup/CodeRAG) | `f50251c86839bc50dbf8b928ae4f3eeacd75e4c5` | Included snapshot, MIT; see `third_party/CodeRAG/LICENSE` and `SOURCE_MANIFEST.json` |
+| [DraCo](https://github.com/nju-websoft/DraCo) | `7d558cd1da2388a7bf1b8b0a30bc4e6fd47cdf83` | ReccEval metric attribution; license retained in `LICENSES/GPL-3.0-DraCo.txt`. No DraCo retrieval implementation is distributed; dataset downloaded separately |
+| [AIRCoder](https://github.com/chuanky/AIRCoder) | `c3c344d674ba4c913c173c1c63c49309a49b1bba` | External source, fetched by setup script; local snapshot had no explicit LICENSE file |
+| [GrepRAG](https://github.com/ZJU-ACES-ISE/greprag) | `31a6875213540ae60c26ea8e4782d0707248b405` | External source, fetched by setup script; local snapshot had no explicit LICENSE file |
+| [RLCoder](https://github.com/DeepSoftwareAnalytics/RLCoder) | `164d8d88cde324a38f5da70c4f858cc4679ef08e` | External source, fetched by setup script; local snapshot had no explicit LICENSE file |
+
+Install the external source files with `python scripts/setup_third_party.py`.
+These directories are ignored by Git. The script downloads only the pinned,
+hash-verified files needed by the adapters; it does not grant any additional
+rights to upstream code. Consult the upstream projects for their distribution terms.
+
+CodeRAG includes only its pinned query-construction reference and MIT license.
+Other included snapshots retain their upstream notices and hashes.
+
+`utils/build/` retains the existing Linux Python parser library used by the
+evaluation code. Their file hashes and format are recorded in
+`utils/build/PARSER_LIBRARIES.json`; the original build revision was not recorded
+in the source workspace.
+
+Datasets, repository snapshots, model weights and tokenizers are obtained
+separately under their own terms. See README.md for runtime setup.
+
+The attribution headers in `utils/eval_utils.py` (Amazon, Apache-2.0),
+`utils/keywords/keywordlist.py` (Microsoft, MIT)
+are retained. Their license texts are included under `LICENSES/`.

@@ -1,0 +1,13 @@
+# First-party source identities are stable across Windows and Linux.
+*.py text eol=lf
+*.sh text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.txt text eol=lf
+*.so binary
+
+# Never normalize the pinned upstream source bytes.
+third_party/** -text
+
+# Preserve the original license text bytes.
+LICENSES/** -text

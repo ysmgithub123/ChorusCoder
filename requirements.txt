@@ -1,0 +1,32 @@
+# Experiment environment. Install the vLLM server separately (see README).
+torch==2.6.0
+# CodeT5+ and CodeSage require the native slow tokenizer backend in 4.x.
+transformers>=4.57.1,<5
+tokenizers
+
+accelerate
+datasets
+func-timeout==4.3.5
+fuzzywuzzy==0.18.0
+huggingface-hub
+Jinja2
+nltk
+numpy
+openai>=1.0
+openpyxl
+packaging
+pandas
+peft
+pytz
+scikit-learn
+scipy
+timeout-decorator==0.5.0
+tqdm
+tree-sitter==0.20.4
+
+# Runtime dependencies imported by the repository but missing upstream.
+editdistance
+prettytable
+pyarrow
+rank-bm25==0.2.2
+requests

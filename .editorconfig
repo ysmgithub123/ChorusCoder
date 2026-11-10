@@ -1,0 +1,5 @@
+# Keep first-party Bash entry points portable; pinned third_party files are excluded.
+[{serve.sh,scripts/**.sh}]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
